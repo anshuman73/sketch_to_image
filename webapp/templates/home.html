@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Image Translation</title>
+    </head>
+    <style>
+    body {
+    background-color: white;
+    }
+    </style>
+    <body>
+        <nav>
+            <div class="nav-wrapper  blue darken-3">
+                <a href="#" class="brand-logo"><font face = "Comic Sans MS" size = "6" style="padding-left: 20px;">Image to Image Translation</font></a>
+                <ul class="right hide-on-med-and-down">
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="padding-top: 50px;">
+            <div class="row center-align" style="margin-left: 15em;margin-right: 15em;">
+                <div class="col s6">
+                    <a href="/models/sketch2faces">
+                        <div class="card card-panel hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="/static/sketch2face.jpg">
+                            </div>
+                            <div class="card-content">
+                                <h5>Sketch to Faces</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col s6">
+                    <a href="/models/maps2buildings">
+                        <div class="card card-panel hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="/static/maps2buildings.jpg">
+                            </div>
+                            <div class="card-content">
+                                <h5>Maps to Buildings</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row center-align" style="margin-left: 15em;margin-right: 15em;">
+                <div class="col s6">
+                    <a href="/models/facades2buildings">
+                        <div class="card card-panel hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="/static/facades2buildings.jpg">
+                            </div>
+                            <div class="card-content">
+                                <h5>Facades to Buildings</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col s6">
+                    <a href="/models/scapes2city">
+                        <div class="card card-panel hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="/static/scapes2city.jpg">
+                            </div>
+                            <div class="card-content">
+                                <h5>Cityscapes to Streets</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
