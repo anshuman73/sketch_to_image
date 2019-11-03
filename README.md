@@ -23,3 +23,7 @@ Using CGAN we have generated Realistic Faces from sketches, facades to buildings
 
 * sketch.py was used to convert images to sketches to augment the training data.
 * merge.py was used to merge the ground truth and the input image, as expected by the Neural Network.
+
+## Example Output
+
+![Sketch to Face](https://raw.githubusercontent.com/anshuman73/sketch_to_image/master/webapp/static/sketch2face.jpg)
